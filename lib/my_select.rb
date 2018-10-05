@@ -2,7 +2,7 @@ def my_select(array)
 i = 0 
 newAr = []
 while i<array.length
-if yield array[i] == true
+if (yield array[i]) == true
   newAr.push(array[i])
 
   end
